@@ -3,7 +3,55 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Uncle Jimbo Pad</title>
+ <!-- HEAD for Uncle Jimbo Pad DJ Mixer -->
+<title>Uncle Jimbo Pad | DJ Kimberly LaRochelle | Live Mixes & Events</title>
+<meta name="description" content="Discover Uncle Jimbo Pad’s live DJ performances by Kimberly LaRochelle. Styles include Deep House, Tech House, Drum & Bass, and more. Follow upcoming events.">
+<link rel="canonical" href="https://robert-calvin-dev.github.io/UncleJimboPad/djmixer.html">
+<link rel="icon" href="https://robert-calvin-dev.github.io/UncleJimboPad/assets/ujpad/images/unclejimbo.png" type="image/x-icon">
+
+<!-- Open Graph / Twitter Meta Tags -->
+<meta property="og:title" content="Uncle Jimbo Pad | DJ Kimberly LaRochelle | Live Mixes & Events">
+<meta property="og:description" content="Follow Uncle Jimbo Pad for live DJ sets spanning Deep House, Tech House, Drum & Bass, Hardstyle and more. Based in Vancouver, BC.">
+<meta property="og:image" content="https://robert-calvin-dev.github.io/UncleJimboPad/assets/ujpad/images/unclejimbo.png">
+<meta property="og:url" content="https://robert-calvin-dev.github.io/UncleJimboPad/djmixer.html">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Uncle Jimbo Pad | DJ Kimberly LaRochelle | Live Mixes & Events">
+<meta name="twitter:description" content="Experience live DJ mixes, events, and music drops by Kimberly LaRochelle from Uncle Jimbo Pad.">
+<meta name="twitter:image" content="https://robert-calvin-dev.github.io/UncleJimboPad/assets/ujpad/images/unclejimbo.png">
+
+<!-- JSON-LD Structured Data (Person + Musician Schema) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "MusicGroup",
+  "name": "Uncle Jimbo Pad",
+  "url": "https://robert-calvin-dev.github.io/UncleJimboPad/djmixer.html",
+  "image": "https://robert-calvin-dev.github.io/UncleJimboPad/assets/ujpad/images/unclejimbo.png",
+  "member": {
+    "@type": "Person",
+    "name": "Kimberly LaRochelle",
+    "birthPlace": "Vancouver, BC",
+    "genre": [
+      "Deep House",
+      "Tech House",
+      "Drum & Bass",
+      "Hardstyle",
+      "Handsup",
+      "Mid-Tempo Bass House",
+      "Dance"
+    ]
+  },
+  "description": "Uncle Jimbo Pad delivers live DJ performances and original mixes across multiple electronic genres. Based in Vancouver, BC.",
+  "sameAs": [
+    "https://soundcloud.com/your-soundcloud",
+    "https://instagram.com/your-instagram",
+    "https://facebook.com/your-facebook",
+    "https://tiktok.com/@your-tiktok"
+  ]
+}
+</script>
+
   <script src="https://w.soundcloud.com/player/api.js"></script>
   <style>
    html, body {
@@ -15,6 +63,7 @@
      background: linear-gradient(145deg, #111 0%, #222 25%, #000 75%, #111 100%);
      font-family: sans-serif;
      display: flex;
+     flex-direction: column;
      justify-content: center;
      align-items: center;
      box-sizing: border-box;
@@ -154,6 +203,37 @@
      from { opacity: 0; }
      to { opacity: 1; }
    }
+
+   .gif-links-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding: 2rem 1rem;
+}
+
+.gif-link {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 8px;
+  transition: transform 0.3s, box-shadow 0.3s;
+  cursor: pointer;
+}
+
+.gif-link:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+/* Mobile adjustment */
+@media (max-width: 768px) {
+  .gif-links-container {
+    flex-direction: column;
+  }
+}
+
  </style>
 </head>
 <body>
@@ -198,8 +278,28 @@
       </div>
       
     </div>
+
+
     
   </div>
+  <section class="gif-links-container">
+    <a href="https://robert-calvin-dev.github.io/mysticclock/personlization.html" target="_blank">
+      <img src="assets/images/mysticclock.gif" alt="Mystic Clock" class="gif-link">
+    </a>
+    <a href="https://robert-calvin-dev.github.io/the-pour-choice/" target="_blank">
+      <img src="assets/images/pourchoice.gif" alt="The Pour Choice" class="gif-link">
+    </a>
+    <a href="https://robert-calvin-dev.github.io/quickaddpro/" target="_blank">
+      <img src="assets/images/quickaddpro.gif" alt="Quick Add Pro" class="gif-link">
+    </a>
+    <a href="https://glitterqueencreative.ca" target="_blank">
+      <img src="assets/images/gq.gif" alt="Glitter Queen" class="gif-link">
+    </a>
+    <a href="https://robert-calvin-dev.github.io/portfolio/" target="_blank">
+      <img src="assets/images/robertcmarketing.gif" alt="Uncle Jimbo DJ Pad" class="gif-link">
+    </a>
+  </section>
+  
 
   <script>
     const gifPlayer = document.getElementById('gifPlayer');

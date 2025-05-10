@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://robert-calvin-dev.github.io/UncleJimboPad/sitemap.xml

@@ -1,0 +1,255 @@
+html {
+  background-color:rgb(0, 0, 0);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  font-family: 'Arial Black', sans-serif;
+  background: #08000c;
+  color: white;
+  overflow-x: hidden;
+  max-width: 700px;
+  border: 2px dotted white;
+  box-shadow: 0 0 15px 5px orange;
+
+}
+.main-layout {
+  display: flex;
+ flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+/* Neon Title */
+.neon-title {
+  display: flex;
+  text-align: center;
+  align-items:center;
+  justify-items: center;
+  justify-content: center;
+  align-content: center;
+  padding: 25px;
+}
+.neon-title .dj  {
+  text-align: center;
+  font-size: 4.2em;
+
+  margin-right: 10px;
+  margin: auto;
+  font-weight: bold;
+}
+.neon-title .uncle, .neon-title .jimbo {
+  font-size: 1.9em;
+ 
+  margin: auto;
+  font-weight: bold;
+  line-height: 25px;
+}
+.neon-title .dj { color: #cc4bff; }
+.neon-title .uncle, .neon-title .jimbo { color: #ffffff; }
+
+/* Mix Pad */
+.mix-pad {
+  display:  flex;
+  width: 100%;
+  flex-direction:column;
+  justify-content: center;
+}
+.pad-square {
+  display: flex;
+  width: 80px;
+  height: 80px;
+  background-color: #111;
+  border: 2px solid #0ff;
+  box-shadow: 0 0 15px #0ff;
+  transition: 0.3s;
+  margin-right: 10px;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-decoration:none;
+
+}
+a {
+  text-decoration:none;
+}
+.pad-square:hover {
+  background-color: #00ffff;
+  box-shadow: 0 0 25px #00ffff;
+}
+.pad-row {
+  display: flex;
+
+  margin: auto;
+}
+
+/* SoundCloud Player */
+.soundcloud-player iframe {
+  width:250px;
+  height: 70px;
+  border: none;
+  margin: auto;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+
+/* Equalizer Animation */
+.equalizer {
+  display: flex;
+  align-items: flex-end;
+ 
+  height:30px;
+  width: 100%;
+}
+.equalizer .bar {
+  width: 30px;
+  background: #00ffff;
+  animation: bounce 1s infinite ease-in-out alternate;
+}
+.equalizer .bar:nth-child(1) { animation-delay: 0s; }
+.equalizer .bar:nth-child(2) { animation-delay: 0.1s; }
+.equalizer .bar:nth-child(3) { animation-delay: 0.2s; }
+.equalizer .bar:nth-child(4) { animation-delay: 0.3s; }
+.equalizer .bar:nth-child(5) { animation-delay: 0.4s; }
+.equalizer .bar:nth-child(6) { animation-delay: 0.5s; }
+.equalizer .bar:nth-child(7) { animation-delay: 0.6s; }
+.equalizer .bar:nth-child(8) { animation-delay: 0.7s; }
+.equalizer .bar:nth-child(9) { animation-delay: 0.8s; }
+.equalizer .bar:nth-child(10) { animation-delay: 0.9s; }
+.equalizer .bar:nth-child(11) { animation-delay: 1s; }
+.equalizer .bar:nth-child(12) { animation-delay: 1.1s; }
+.equalizer .bar:nth-child(13) { animation-delay: 1.2s; }
+.equalizer .bar:nth-child(14) { animation-delay: 1.3s; }
+.equalizer .bar:nth-child(15) { animation-delay: 1.4s; }
+.equalizer .bar:nth-child(16) { animation-delay: 1.5s; }
+.equalizer .bar:nth-child(17) { animation-delay: 1.6s; }
+.equalizer .bar:nth-child(18) { animation-delay: 1.7s; }
+
+@keyframes bounce {
+  0% { height: 20px; }
+  100% { height: 80px; }
+}
+
+
+/* Controls */
+
+.dial {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: radial-gradient(circle, #b700ff, #9a0090);
+  border: 2px solid #ffffff;
+  box-shadow: 0 0 10px #00ddff;
+}
+.volume-slider {
+  writing-mode: bt-lr;
+  appearance: slider-vertical;
+  height: 80px;
+  background-color: orange;
+}
+
+/* Book Me */
+.book-me-bar {
+  font-size: 1.2em;
+  background: repeating-linear-gradient(
+    45deg,
+    #ff9100,
+    #ffa938 10px,
+    #f8b231 10px,
+    #ffbb00 20px
+  );
+  color: white;
+  text-align: center;
+  padding: 12px;
+  width: 100%;
+  font-weight: bold;
+  animation: flash 1s infinite alternate;
+}
+
+@keyframes flash {
+  0% { opacity: 1; transform: scale(1); }
+  100% { opacity: 0.7; transform: scale(1.03); }
+}
+
+.album-grid {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.album-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap:wrap;
+  width: 100%;
+}
+
+.album-row.reverse {
+  flex-direction: row-reverse;
+}
+
+.album-row a {
+  flex: 1;
+}
+
+.album-row img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+form {
+  background: #8d3004;
+  padding: 20px;
+  border-radius: 12px;
+  width: 90%;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin: auto;
+}
+
+input, textarea, button {
+  font-size: 1em;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+}
+
+input, textarea {
+  background: #eee;
+  color: #111;
+}
+
+button {
+  background: #000000;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #5005a0;
+}
+
+label {
+  font-size: 0.9em;
+}
+
+#bio {
+  display: flex;
+  padding: 25px;
+}
+#bio img {
+  width: 90%; 
+  border: 1 px solid purple;
+  margin: auto;
+}

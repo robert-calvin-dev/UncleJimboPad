@@ -479,21 +479,22 @@ a {
 }
 
 .latest {
-  margin-top: 20px;
+  margin-top: 50px;
+  margin-bottom: 50px;
   display: flex;
   width: 100%;
   align-items: center;
   padding: 15px;
 }
 .latesttext {
-  width: 50%;
+  width: 45%;
   font-family: megrim;
   font-size: 30px;
   margin-right: 5px;
 }
 
 .latestmix {
-  width: 50%;
+  width: 45%;
   border: 2px dotted white;
 }
 .latestmix img {
@@ -504,7 +505,7 @@ a {
   width: 100%;
   font-family: megrim;
   font-size: 30px;
-  margin-bottom: 5px;
+  margin-bottom: 20px;
   text-align: center;
 }
 
@@ -580,13 +581,61 @@ label {
 }
 
 #bio {
+  margin-top: 50px;
+  margin-bottom: 20px;
   width: 100%;
-  
   display: flex;
+  flex-direction:column;
+  font-family: "Red Hat Display", sans-serif;
  
 }
+
 #bio img {
   width: 100%; 
   border: 1 px solid purple;
   margin: auto;
 }
+
+#bio h3 {
+  font-size: 24px;
+  color: white;
+  text-align: right;
+  padding: 5px;
+}
+
+#bio h4 {
+  color: orange;
+  text-align: right;
+  padding: 5px;
+}
+#bio p {
+  margin-top: 7px;
+  text-align: right;
+  padding: 5px;
+
+}
+
+.friends {
+  margin-top: 25px;
+  width: 100%;
+  display: flex;
+  flex-direction:column;
+  justify-items: center;
+  padding: 20px;
+  font-style:italic;
+}
+
+.friendcard {
+  width: 60%;
+  background-color:rgba(100, 148, 237, 0.503);
+  color: white;
+  border: 1px solid white;
+  border-radius: 8px;
+  margin: auto;
+  margin-bottom: 25px; 
+}
+
+.friendcard p {
+  padding: 20px;
+}
+

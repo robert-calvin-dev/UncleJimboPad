@@ -5,50 +5,44 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>DJ UNCLE JIMBO</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Megrim&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css" />
 </head>
-
 <body>
   <section class="main-layout">
-   
-    <div class="neon-title">
-      <div class="dial pause"></div>
-
-      <div class="soundcloud-player"><iframe width="100%" height="100" scrolling="no" frameborder="no" allow="autoplay"
-        src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1151079673&color=%23ff5500"></iframe>
-    </div>
-
-      <div class="dial play"></div>
-    </div>
-    <div class="book-me-bar"></div>
-    <br>
-    <img style="width: 90%;" src="Untitled design (3).gif">
- 
-<br><br><br>
-    <br>
-    <div style="display:flex;">
-      <div style="width: 100%;" class="mix-pad">
-        <div class="pad-row">
-          <a href="https://www.facebook.com/unclejimbodj"><div class="pad-square">FB</div></a>
-          <div class="pad-square"></div>
-          <a href="https://www.instagram.com/kimbolarochelle/"><div class="pad-square">IG</div></a>
-          <div class="pad-square"></div>
-        </div><br>
-        <div class="pad-row">
-          <div class="pad-square"></div>
-          <a href="https://soundcloud.com/uncle-jimbo-dj"> <div class="pad-square">SC</div></a>
-          <div class="pad-square"></div>
-          <a href="#bio"> <div class="pad-square">BIO</div></a>
+    <div class="book-me-bar">
+      <div class="book-me-content">
+        <div class="dial pause"></div>
+        <div class="soundcloud-screen">
+          <iframe
+            width="100%"
+            height="100"
+            scrolling="no"
+            frameborder="no"
+            allow="autoplay"
+            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1151079673&color=%23ff5500">
+          </iframe>
         </div>
+        <div class="dial play"></div>
       </div>
-      
     </div>
-    <br>
-    <br>
-    <br>
-    <br>
-    <div class="album-grid">
-
+    <img class="giffy" src="/unclejimbo.gif">
+      <div class="mix-pad">
+        <div class="pad-square"><a href="https://www.facebook.com/unclejimbodj">FB</a></div>
+        <div class="pad-square"><a href="https://soundcloud.com/uncle-jimbo-dj"> SC</a></div>
+        <div class="pad-square"><a href="https://www.instagram.com/kimbolarochelle/">IG</a></div>
+        <div class="pad-square"> <a href="#bio">BIO</a></div>
+      </div>
+      <div class="latest">
+        <div class="latesttext">
+          <h2>The Latest <br> From <br> Uncle Jimbo</h2>
+        </div>
+        <a class="latestmix" href="https://soundcloud.com/uncle-jimbo-dj/desire"><img src="/desire.png"></a> 
+      </div>
+      <div class="album-grid">
+        <h2 class="mixhistory">Mix History</h2>
       <div class="album-row ">
         <a href="https://soundcloud.com/uncle-jimbo-dj/beginners-luck" target="_blank">
           <img src="BeginnersLuck.jpeg" alt="Beginners Luck">
@@ -84,16 +78,6 @@
           <img src="InDaClub.jpeg" alt="InDaClub">
         </a>
       </div>
-      <br>
-      <br>
-
-      <section id="bio">
-        <img src="kim.png">
-
-      </section>
-
-      <br>
-      <br>
     
       <div class="album-row ">
         <a href="https://soundcloud.com/uncle-jimbo-dj/mirror-mirror" target="_blank">
@@ -131,13 +115,10 @@
           <img src="Sunshine.jpeg" alt="Sunshine">
         </a>
       </div>
-
-<br>
-<br>
-<br>
-<br>
-
-      <section style="padding: 25px;" id="booking">
+        </div>
+        <section id="bio">
+          <img src="kim.png">
+        </section>
         <form action="https://formspree.io/f/yourFormID" method="POST">
           <label>
             Name
@@ -171,36 +152,311 @@
       
           <button type="submit">Request Booking</button>
         </form>
+      <video style="width: 100%; max-width: 600px; margin: auto" controls src="0926(1).mp4"></video>
 
-      </section>
-      <br>
-      <br>
-      <br>
-      <br>
+<br><br><br><br>
 
-      <video style="width: 80%; margin: auto" controls src="0926(1).mp4"></video>
-    
-    </div>
-    <br><br><br><br>
     <img style="width: 50%; margin: auto;" src="logo.png">
-  </section>
-  <div style="width: 100%; margin: auto;" class="equalizer">
-    <div style="background-color:rgb(255, 123, 0)" class="bar"></div>
-    <div style="background-color:rgb(255, 128, 5)" class="bar"></div>
-    <div style="background-color:rgb(255, 133, 10)" class="bar"></div>
-    <div style="background-color:rgb(255, 138, 15)" class="bar"></div>
-    <div style="background-color:rgb(255, 143, 20)" class="bar"></div>
-    <div style="background-color:rgb(255, 148, 25)" class="bar"></div>
-    <div style="background-color:rgb(255, 153, 30)" class="bar"></div>
-    <div style="background-color:rgb(255, 158, 35)" class="bar"></div>
-    <div style="background-color:rgb(255, 163, 40)" class="bar"></div>
-    <div style="background-color:rgb(255, 168, 45)" class="bar"></div>
-    <div style="background-color:rgb(255, 173, 50)" class="bar"></div>
-    <div style="background-color:rgb(255, 178, 55)" class="bar"></div>
-    <div style="background-color:rgb(255, 183, 60)" class="bar"></div>
-    <div style="background-color:rgb(255, 188, 65)" class="bar"></div>
-    <div style="background-color:rgb(255, 193, 70)" class="bar"></div>
+ 
+    <div class="equalizer">
+    <div class="equalizer left">
+      <div style="background-color:rgb(255, 123, 0)" class="bar"></div>
+      <div style="background-color:rgb(255, 124, 1)" class="bar"></div>
+      <div style="background-color:rgb(255, 125, 2)" class="bar"></div>
+      <div style="background-color:rgb(255, 126, 3)" class="bar"></div>
+      <div style="background-color:rgb(255, 127, 4)" class="bar"></div>
+      <div style="background-color:rgb(255, 128, 5)" class="bar"></div>
+      <div style="background-color:rgb(255, 129, 6)" class="bar"></div>
+      <div style="background-color:rgb(255, 130, 7)" class="bar"></div>
+      <div style="background-color:rgb(255, 131, 8)" class="bar"></div>
+      <div style="background-color:rgb(255, 132, 9)" class="bar"></div>
+      <div style="background-color:rgb(255, 133, 10)" class="bar"></div>
+      <div style="background-color:rgb(255, 134, 11)" class="bar"></div>
+      <div style="background-color:rgb(255, 135, 12)" class="bar"></div>
+      <div style="background-color:rgb(255, 136, 13)" class="bar"></div>
+      <div style="background-color:rgb(255, 137, 14)" class="bar"></div>
+      <div style="background-color:rgb(255, 138, 15)" class="bar"></div>
+      <div style="background-color:rgb(255, 139, 16)" class="bar"></div>
+      <div style="background-color:rgb(255, 140, 17)" class="bar"></div>
+      <div style="background-color:rgb(255, 141, 18)" class="bar"></div>
+      <div style="background-color:rgb(255, 142, 19)" class="bar"></div>
+      <div style="background-color:rgb(255, 143, 20)" class="bar"></div>
+      <div style="background-color:rgb(255, 144, 21)" class="bar"></div>
+      <div style="background-color:rgb(255, 145, 22)" class="bar"></div>
+      <div style="background-color:rgb(255, 146, 23)" class="bar"></div>
+      <div style="background-color:rgb(255, 147, 24)" class="bar"></div>
+      <div style="background-color:rgb(255, 148, 25)" class="bar"></div>
+      <div style="background-color:rgb(255, 149, 26)" class="bar"></div>
+      <div style="background-color:rgb(255, 150, 27)" class="bar"></div>
+      <div style="background-color:rgb(255, 151, 28)" class="bar"></div>
+      <div style="background-color:rgb(255, 152, 29)" class="bar"></div>
+      <div style="background-color:rgb(255, 153, 30)" class="bar"></div>
+  <div style="background-color:rgb(255, 154, 31)" class="bar"></div>
+  <div style="background-color:rgb(255, 155, 32)" class="bar"></div>
+  <div style="background-color:rgb(255, 156, 33)" class="bar"></div>
+  <div style="background-color:rgb(255, 157, 34)" class="bar"></div>
+  <div style="background-color:rgb(255, 158, 35)" class="bar"></div>
+  <div style="background-color:rgb(255, 159, 36)" class="bar"></div>
+  <div style="background-color:rgb(255, 160, 37)" class="bar"></div>
+  <div style="background-color:rgb(255, 161, 38)" class="bar"></div>
+  <div style="background-color:rgb(255, 162, 39)" class="bar"></div>
+  <div style="background-color:rgb(255, 163, 40)" class="bar"></div>
+  <div style="background-color:rgb(255, 164, 41)" class="bar"></div>
+  <div style="background-color:rgb(255, 165, 42)" class="bar"></div>
+  <div style="background-color:rgb(255, 166, 43)" class="bar"></div>
+  <div style="background-color:rgb(255, 167, 44)" class="bar"></div>
+  <div style="background-color:rgb(255, 168, 45)" class="bar"></div>
+  <div style="background-color:rgb(255, 169, 46)" class="bar"></div>
+  <div style="background-color:rgb(255, 170, 47)" class="bar"></div>
+  <div style="background-color:rgb(255, 171, 48)" class="bar"></div>
+  <div style="background-color:rgb(255, 172, 49)" class="bar"></div>
+  <div style="background-color:rgb(255, 173, 50)" class="bar"></div>
+  <div style="background-color:rgb(255, 174, 51)" class="bar"></div>
+  <div style="background-color:rgb(255, 175, 52)" class="bar"></div>
+  <div style="background-color:rgb(255, 176, 53)" class="bar"></div>
+  <div style="background-color:rgb(255, 177, 54)" class="bar"></div>
+  <div style="background-color:rgb(255, 178, 55)" class="bar"></div>
+  <div style="background-color:rgb(255, 179, 56)" class="bar"></div>
+  <div style="background-color:rgb(255, 180, 57)" class="bar"></div>
+  <div style="background-color:rgb(255, 181, 58)" class="bar"></div>
+  <div style="background-color:rgb(255, 182, 59)" class="bar"></div>
+  <div style="background-color:rgb(255, 183, 60)" class="bar"></div>
+  <div style="background-color:rgb(255, 184, 61)" class="bar"></div>
+  <div style="background-color:rgb(255, 185, 62)" class="bar"></div>
+  <div style="background-color:rgb(255, 186, 63)" class="bar"></div>
+  <div style="background-color:rgb(255, 187, 64)" class="bar"></div>
+  <div style="background-color:rgb(255, 188, 65)" class="bar"></div>
+  <div style="background-color:rgb(255, 189, 66)" class="bar"></div>
+  <div style="background-color:rgb(255, 190, 67)" class="bar"></div>
+  <div style="background-color:rgb(255, 191, 68)" class="bar"></div>
+  <div style="background-color:rgb(255, 192, 69)" class="bar"></div>
+  <div style="background-color:rgb(255, 193, 70)" class="bar"></div>
+  <div style="background-color:rgb(255, 194, 71)" class="bar"></div>
+  <div style="background-color:rgb(255, 195, 72)" class="bar"></div>
+  <div style="background-color:rgb(255, 196, 73)" class="bar"></div>
+  <div style="background-color:rgb(255, 197, 74)" class="bar"></div>
+  <div style="background-color:rgb(255, 198, 75)" class="bar"></div>
+  <div style="background-color:rgb(255, 199, 76)" class="bar"></div>
+  <div style="background-color:rgb(255, 200, 77)" class="bar"></div>
+  <div style="background-color:rgb(255, 201, 78)" class="bar"></div>
+  <div style="background-color:rgb(255, 202, 79)" class="bar"></div>
+  <div style="background-color:rgb(255, 203, 80)" class="bar"></div>
+  <div style="background-color:rgb(255, 204, 81)" class="bar"></div>
+  <div style="background-color:rgb(255, 205, 82)" class="bar"></div>
+  <div style="background-color:rgb(255, 206, 83)" class="bar"></div>
+  <div style="background-color:rgb(255, 207, 84)" class="bar"></div>
+  <div style="background-color:rgb(255, 208, 85)" class="bar"></div>
+  <div style="background-color:rgb(255, 209, 86)" class="bar"></div>
+  <div style="background-color:rgb(255, 210, 87)" class="bar"></div>
+  <div style="background-color:rgb(255, 211, 88)" class="bar"></div>
+  <div style="background-color:rgb(255, 212, 89)" class="bar"></div>
+  <div style="background-color:rgb(255, 213, 90)" class="bar"></div>
+  <div style="background-color:rgb(255, 214, 91)" class="bar"></div>
+  <div style="background-color:rgb(255, 215, 92)" class="bar"></div>
+  <div style="background-color:rgb(255, 216, 93)" class="bar"></div>
+  <div style="background-color:rgb(255, 217, 94)" class="bar"></div>
+  <div style="background-color:rgb(255, 218, 95)" class="bar"></div>
+  <div style="background-color:rgb(255, 219, 96)" class="bar"></div>
+  <div style="background-color:rgb(255, 220, 97)" class="bar"></div>
+  <div style="background-color:rgb(255, 221, 98)" class="bar"></div>
+  <div style="background-color:rgb(255, 222, 99)" class="bar"></div>
+  <div style="background-color:rgb(255, 223, 100)" class="bar"></div>
+  <div style="background-color:rgb(255, 224, 101)" class="bar"></div>
+  <div style="background-color:rgb(255, 225, 102)" class="bar"></div>
+  <div style="background-color:rgb(255, 226, 103)" class="bar"></div>
+  <div style="background-color:rgb(255, 227, 104)" class="bar"></div>
+  <div style="background-color:rgb(255, 228, 105)" class="bar"></div>
+  <div style="background-color:rgb(255, 229, 106)" class="bar"></div>
+  <div style="background-color:rgb(255, 230, 107)" class="bar"></div>
+  <div style="background-color:rgb(255, 231, 108)" class="bar"></div>
+  <div style="background-color:rgb(255, 232, 109)" class="bar"></div>
+  <div style="background-color:rgb(255, 233, 110)" class="bar"></div>
+  <div style="background-color:rgb(255, 234, 111)" class="bar"></div>
+  <div style="background-color:rgb(255, 235, 112)" class="bar"></div>
+  <div style="background-color:rgb(255, 236, 113)" class="bar"></div>
+  <div style="background-color:rgb(255, 237, 114)" class="bar"></div>
+  <div style="background-color:rgb(255, 238, 115)" class="bar"></div>
+  <div style="background-color:rgb(255, 239, 116)" class="bar"></div>
+  <div style="background-color:rgb(255, 240, 117)" class="bar"></div>
+  <div style="background-color:rgb(255, 241, 118)" class="bar"></div>
+  <div style="background-color:rgb(255, 242, 119)" class="bar"></div>
+  <div style="background-color:rgb(255, 243, 120)" class="bar"></div>
+  <div style="background-color:rgb(255, 244, 121)" class="bar"></div>
+  <div style="background-color:rgb(255, 245, 122)" class="bar"></div>
+  <div style="background-color:rgb(255, 246, 123)" class="bar"></div>
+  <div style="background-color:rgb(255, 247, 124)" class="bar"></div>
+  <div style="background-color:rgb(255, 248, 125)" class="bar"></div>
+  <div style="background-color:rgb(255, 249, 126)" class="bar"></div>
+  <div style="background-color:rgb(255, 250, 127)" class="bar"></div>
+  <div style="background-color:rgb(255, 251, 128)" class="bar"></div>
+  <div style="background-color:rgb(255, 252, 129)" class="bar"></div>
+  <div style="background-color:rgb(255, 253, 130)" class="bar"></div>
+  <div style="background-color:rgb(255, 254, 131)" class="bar"></div>
+  <div style="background-color:rgb(255, 255, 132)" class="bar"></div>
+  <div style="background-color:rgb(255, 255, 133)" class="bar"></div>
+  <div style="background-color:rgb(255, 255, 134)" class="bar"></div>
+  <div style="background-color:rgb(255, 255, 135)" class="bar"></div>
+  <div style="background-color:rgb(255, 255, 136)" class="bar"></div>
+  <div style="background-color:rgb(255, 255, 137)" class="bar"></div>
+  <div style="background-color:rgb(255, 255, 138)" class="bar"></div>
+  <div style="background-color:rgb(255, 255, 139)" class="bar"></div>
+  <div style="background-color:rgb(255, 255, 138)" class="bar"></div>
+<div style="background-color:rgb(255, 254, 137)" class="bar"></div>
+<div style="background-color:rgb(255, 253, 136)" class="bar"></div>
+<div style="background-color:rgb(255, 252, 135)" class="bar"></div>
+<div style="background-color:rgb(255, 251, 134)" class="bar"></div>
+<div style="background-color:rgb(255, 250, 133)" class="bar"></div>
+<div style="background-color:rgb(255, 249, 132)" class="bar"></div>
+<div style="background-color:rgb(255, 248, 131)" class="bar"></div>
+<div style="background-color:rgb(255, 247, 130)" class="bar"></div>
+<div style="background-color:rgb(255, 246, 129)" class="bar"></div>
+<div style="background-color:rgb(255, 245, 128)" class="bar"></div>
+<div style="background-color:rgb(255, 244, 127)" class="bar"></div>
+<div style="background-color:rgb(255, 243, 126)" class="bar"></div>
+<div style="background-color:rgb(255, 242, 125)" class="bar"></div>
+<div style="background-color:rgb(255, 241, 124)" class="bar"></div>
+<div style="background-color:rgb(255, 240, 123)" class="bar"></div>
+<div style="background-color:rgb(255, 239, 122)" class="bar"></div>
+<div style="background-color:rgb(255, 238, 121)" class="bar"></div>
+<div style="background-color:rgb(255, 237, 120)" class="bar"></div>
+<div style="background-color:rgb(255, 236, 119)" class="bar"></div>
+<div style="background-color:rgb(255, 235, 118)" class="bar"></div>
+<div style="background-color:rgb(255, 234, 117)" class="bar"></div>
+<div style="background-color:rgb(255, 233, 116)" class="bar"></div>
+<div style="background-color:rgb(255, 232, 115)" class="bar"></div>
+<div style="background-color:rgb(255, 231, 114)" class="bar"></div>
+<div style="background-color:rgb(255, 230, 113)" class="bar"></div>
+<div style="background-color:rgb(255, 229, 112)" class="bar"></div>
+<div style="background-color:rgb(255, 228, 111)" class="bar"></div>
+<div style="background-color:rgb(255, 227, 110)" class="bar"></div>
+<div style="background-color:rgb(255, 226, 109)" class="bar"></div>
+<div style="background-color:rgb(255, 225, 108)" class="bar"></div>
+<div style="background-color:rgb(255, 224, 107)" class="bar"></div>
+<div style="background-color:rgb(255, 223, 106)" class="bar"></div>
+<div style="background-color:rgb(255, 222, 105)" class="bar"></div>
+<div style="background-color:rgb(255, 221, 104)" class="bar"></div>
+<div style="background-color:rgb(255, 220, 103)" class="bar"></div>
+<div style="background-color:rgb(255, 219, 102)" class="bar"></div>
+<div style="background-color:rgb(255, 218, 101)" class="bar"></div>
+<div style="background-color:rgb(255, 217, 100)" class="bar"></div>
+<div style="background-color:rgb(255, 216, 99)" class="bar"></div>
+<div style="background-color:rgb(255, 215, 98)" class="bar"></div>
+<div style="background-color:rgb(255, 214, 97)" class="bar"></div>
+<div style="background-color:rgb(255, 213, 96)" class="bar"></div>
+<div style="background-color:rgb(255, 212, 95)" class="bar"></div>
+<div style="background-color:rgb(255, 211, 94)" class="bar"></div>
+<div style="background-color:rgb(255, 210, 93)" class="bar"></div>
+<div style="background-color:rgb(255, 209, 92)" class="bar"></div>
+<div style="background-color:rgb(255, 208, 91)" class="bar"></div>
+<div style="background-color:rgb(255, 207, 90)" class="bar"></div>
+<div style="background-color:rgb(255, 206, 89)" class="bar"></div>
+<div style="background-color:rgb(255, 205, 88)" class="bar"></div>
+<div style="background-color:rgb(255, 204, 87)" class="bar"></div>
+<div style="background-color:rgb(255, 203, 86)" class="bar"></div>
+<div style="background-color:rgb(255, 202, 85)" class="bar"></div>
+<div style="background-color:rgb(255, 201, 84)" class="bar"></div>
+<div style="background-color:rgb(255, 200, 83)" class="bar"></div>
+<div style="background-color:rgb(255, 199, 82)" class="bar"></div>
+<div style="background-color:rgb(255, 198, 81)" class="bar"></div>
+<div style="background-color:rgb(255, 197, 80)" class="bar"></div>
+<div style="background-color:rgb(255, 196, 79)" class="bar"></div>
+<div style="background-color:rgb(255, 195, 78)" class="bar"></div>
+<div style="background-color:rgb(255, 194, 77)" class="bar"></div>
+<div style="background-color:rgb(255, 193, 76)" class="bar"></div>
+<div style="background-color:rgb(255, 192, 75)" class="bar"></div>
+<div style="background-color:rgb(255, 191, 74)" class="bar"></div>
+<div style="background-color:rgb(255, 190, 73)" class="bar"></div>
+<div style="background-color:rgb(255, 189, 72)" class="bar"></div>
+<div style="background-color:rgb(255, 188, 71)" class="bar"></div>
+<div style="background-color:rgb(255, 187, 70)" class="bar"></div>
+<div style="background-color:rgb(255, 186, 69)" class="bar"></div>
+<div style="background-color:rgb(255, 185, 68)" class="bar"></div>
+<div style="background-color:rgb(255, 184, 67)" class="bar"></div>
+<div style="background-color:rgb(255, 183, 66)" class="bar"></div>
+<div style="background-color:rgb(255, 182, 65)" class="bar"></div>
+<div style="background-color:rgb(255, 181, 64)" class="bar"></div>
+<div style="background-color:rgb(255, 180, 63)" class="bar"></div>
+<div style="background-color:rgb(255, 179, 62)" class="bar"></div>
+<div style="background-color:rgb(255, 178, 61)" class="bar"></div>
+<div style="background-color:rgb(255, 177, 60)" class="bar"></div>
+<div style="background-color:rgb(255, 176, 59)" class="bar"></div>
+<div style="background-color:rgb(255, 175, 58)" class="bar"></div>
+<div style="background-color:rgb(255, 174, 57)" class="bar"></div>
+<div style="background-color:rgb(255, 173, 56)" class="bar"></div>
+<div style="background-color:rgb(255, 172, 55)" class="bar"></div>
+<div style="background-color:rgb(255, 171, 54)" class="bar"></div>
+<div style="background-color:rgb(255, 170, 53)" class="bar"></div>
+<div style="background-color:rgb(255, 169, 52)" class="bar"></div>
+<div style="background-color:rgb(255, 168, 51)" class="bar"></div>
+<div style="background-color:rgb(255, 167, 50)" class="bar"></div>
+<div style="background-color:rgb(255, 166, 49)" class="bar"></div>
+<div style="background-color:rgb(255, 165, 48)" class="bar"></div>
+<div style="background-color:rgb(255, 164, 47)" class="bar"></div>
+<div style="background-color:rgb(255, 163, 46)" class="bar"></div>
+<div style="background-color:rgb(255, 162, 45)" class="bar"></div>
+<div style="background-color:rgb(255, 161, 44)" class="bar"></div>
+<div style="background-color:rgb(255, 160, 43)" class="bar"></div>
+<div style="background-color:rgb(255, 159, 42)" class="bar"></div>
+<div style="background-color:rgb(255, 158, 41)" class="bar"></div>
+<div style="background-color:rgb(255, 157, 40)" class="bar"></div>
+<div style="background-color:rgb(255, 156, 39)" class="bar"></div>
+<div style="background-color:rgb(255, 155, 38)" class="bar"></div>
+<div style="background-color:rgb(255, 154, 37)" class="bar"></div>
+<div style="background-color:rgb(255, 153, 36)" class="bar"></div>
+<div style="background-color:rgb(255, 152, 35)" class="bar"></div>
+<div style="background-color:rgb(255, 151, 34)" class="bar"></div>
+<div style="background-color:rgb(255, 150, 33)" class="bar"></div>
+<div style="background-color:rgb(255, 149, 32)" class="bar"></div>
+<div style="background-color:rgb(255, 148, 31)" class="bar"></div>
+<div style="background-color:rgb(255, 147, 30)" class="bar"></div>
+<div style="background-color:rgb(255, 146, 29)" class="bar"></div>
+<div style="background-color:rgb(255, 145, 28)" class="bar"></div>
+<div style="background-color:rgb(255, 144, 27)" class="bar"></div>
+<div style="background-color:rgb(255, 143, 26)" class="bar"></div>
+<div style="background-color:rgb(255, 142, 25)" class="bar"></div>
+<div style="background-color:rgb(255, 141, 24)" class="bar"></div>
+<div style="background-color:rgb(255, 140, 23)" class="bar"></div>
+<div style="background-color:rgb(255, 139, 22)" class="bar"></div>
+<div style="background-color:rgb(255, 138, 21)" class="bar"></div>
+<div style="background-color:rgb(255, 137, 20)" class="bar"></div>
+<div style="background-color:rgb(255, 136, 19)" class="bar"></div>
+<div style="background-color:rgb(255, 135, 18)" class="bar"></div>
+<div style="background-color:rgb(255, 134, 17)" class="bar"></div>
+<div style="background-color:rgb(255, 133, 16)" class="bar"></div>
+<div style="background-color:rgb(255, 132, 15)" class="bar"></div>
+<div style="background-color:rgb(255, 131, 14)" class="bar"></div>
+<div style="background-color:rgb(255, 130, 13)" class="bar"></div>
+<div style="background-color:rgb(255, 129, 12)" class="bar"></div>
+<div style="background-color:rgb(255, 128, 11)" class="bar"></div>
+<div style="background-color:rgb(255, 127, 10)" class="bar"></div>
+<div style="background-color:rgb(255, 126, 9)" class="bar"></div>
+<div style="background-color:rgb(255, 125, 8)" class="bar"></div>
+<div style="background-color:rgb(255, 124, 7)" class="bar"></div>
+<div style="background-color:rgb(255, 123, 6)" class="bar"></div>
+<div style="background-color:rgb(255, 122, 5)" class="bar"></div>
+<div style="background-color:rgb(255, 121, 4)" class="bar"></div>
+<div style="background-color:rgb(255, 120, 3)" class="bar"></div>
+<div style="background-color:rgb(255, 119, 2)" class="bar"></div>
+<div style="background-color:rgb(255, 118, 1)" class="bar"></div>
+<div style="background-color:rgb(255, 117, 0)" class="bar"></div>
+<div style="background-color:rgb(255, 116, 0)" class="bar"></div>
+<div style="background-color:rgb(255, 115, 0)" class="bar"></div>
+<div style="background-color:rgb(255, 114, 0)" class="bar"></div>
+<div style="background-color:rgb(255, 113, 0)" class="bar"></div>
+<div style="background-color:rgb(255, 112, 0)" class="bar"></div>
+
+
+
+
+    </div>
   </div>
+  
+
+  </section>
+  
+
+
+
   <script src="script.js"></script>
 </body>
 
